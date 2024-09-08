@@ -1,9 +1,9 @@
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const LazyHome = lazy(() => import("./Pages/Home/Home"));
-const LazyNovaLista = lazy(() => import("./Pages/Novalista/Novalista"));
-const LazyProfile = lazy(() => import("./Pages/Perfil/Perfil"));
+const LazyHome = lazy(() => import("../src/Pages/Home/Home"));
+const LazyNovaLista = lazy(() => import("../src/Pages/NovaLista/NovaLista"));
+const LazyProfile = lazy(() => import("../src/Pages/Perfil/Perfil"));
 
 function App() {
   return (
